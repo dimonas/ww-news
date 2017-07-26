@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.ww.news.dto;
 
 import java.util.Calendar;
 import java.util.Date;

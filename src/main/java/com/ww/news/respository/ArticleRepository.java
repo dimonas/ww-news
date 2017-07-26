@@ -1,4 +1,4 @@
-package com.example.demo.respository;
+package com.ww.news.respository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.demo.dto.Article;
+import com.ww.news.dto.Article;
 
 public interface ArticleRepository extends CrudRepository<Article, Long> {
 	

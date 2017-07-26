@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.ww.news.controller;
 
 import java.util.List;
 
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.client.ArticlesApiService;
-import com.example.demo.dto.Article;
-import com.example.demo.dto.ArticlesSource;
-import com.example.demo.respository.ArticleRepository;
-import com.example.demo.respository.ArticlesSourceRepository;
-import com.example.demo.services.ArticleService;
+import com.ww.news.client.ArticlesApiService;
+import com.ww.news.dto.Article;
+import com.ww.news.dto.ArticlesSource;
+import com.ww.news.respository.ArticleRepository;
+import com.ww.news.respository.ArticlesSourceRepository;
+import com.ww.news.services.ArticleService;
 
 @RestController
 public class ArticleRestController {

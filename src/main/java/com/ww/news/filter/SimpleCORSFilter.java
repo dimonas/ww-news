@@ -1,4 +1,4 @@
-package com.example.demo.filter;
+package com.ww.news.filter;
 
 import java.io.IOException;
 

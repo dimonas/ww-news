@@ -1,4 +1,4 @@
-package com.example.demo.services;
+package com.ww.news.services;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -8,11 +8,11 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.demo.client.ArticlesApiService;
-import com.example.demo.dto.Article;
-import com.example.demo.dto.ArticlesSource;
-import com.example.demo.respository.ArticleRepository;
-import com.example.demo.respository.ArticlesSourceRepository;
+import com.ww.news.client.ArticlesApiService;
+import com.ww.news.dto.Article;
+import com.ww.news.dto.ArticlesSource;
+import com.ww.news.respository.ArticleRepository;
+import com.ww.news.respository.ArticlesSourceRepository;
 
 @Service
 public class ArticleService {

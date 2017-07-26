@@ -1,4 +1,4 @@
-package com.example.demo.enums;
+package com.ww.news.enums;
 
 public class ArticleSourceCategory {
 

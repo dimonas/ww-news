@@ -1,4 +1,4 @@
-package com.example.demo.client;
+package com.ww.news.client;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.example.demo.dto.Article;
-import com.example.demo.dto.ArticleResponse;
-import com.example.demo.dto.ArticlesSource;
-import com.example.demo.dto.ArticlesSourceResponse;
+import com.ww.news.dto.Article;
+import com.ww.news.dto.ArticleResponse;
+import com.ww.news.dto.ArticlesSource;
+import com.ww.news.dto.ArticlesSourceResponse;
 
 //c815948baeb649679d89ea02b13832a2
 
